@@ -14,3 +14,7 @@ Your program needs to analyze the loans contained in the loanFiles.json file and
 We need these calculations both for the entire file and then we also need them broken down by state (utilizing the SubjectState field.) We want these results in TWO different JSON files.
 
 Please provide as your solution the two JSON files as described below plus any and all code you wrote to achieve your result. Please round all decimal values to 2 digits of precision, rounding to the nearest value.
+
+The first should be called monthlySummary.json and should contain the calculations across all states.
+
+The second JSON file should be called monthlyByState.json. It should contain the same calculations as the monthlySummary.json file, but this time grouped by state.
